@@ -15,6 +15,7 @@ public class Utils
 		StringBuilder builder = new StringBuilder();
 		try 
 		{
+			System.out.println(path);
 			BufferedReader br = new BufferedReader(new FileReader(path));
 			String line;
 			while((line = br.readLine()) != null)

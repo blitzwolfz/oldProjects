@@ -188,6 +188,7 @@ public class Game implements Runnable
 		thread = new Thread(this);
 		thread.start();
 	}
+
 	public synchronized void stop()
 	{
 		if(!running)

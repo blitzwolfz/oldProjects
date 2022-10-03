@@ -20,7 +20,7 @@ public class Assets
 	
 	public static void init()
 	{
-		SpriteSheet sheet = new SpriteSheet(ImageLoader.loadImage("/textures/SpriteSheet.png"));
+		SpriteSheet sheet = new SpriteSheet(ImageLoader.loadImage("../res/textures/SpriteSheet.png"));
 		
 		btn_start = new BufferedImage[2];
 		btn_start[0] = sheet.crop(0, height*5, width*2, height);

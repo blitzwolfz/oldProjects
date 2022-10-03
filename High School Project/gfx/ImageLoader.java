@@ -1,5 +1,4 @@
 package dev.jordan.isugame.gfx;
-
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
